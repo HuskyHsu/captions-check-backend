@@ -5,7 +5,7 @@ const test = require("firebase-functions-test")();
 const assert = chai.assert;
 const myFunctions = require("../index");
 
-describe("Cloud Functions", () => {
+describe("Cloud Functions - User", () => {
   after(() => {
     test.cleanup();
   });
